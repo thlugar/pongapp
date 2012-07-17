@@ -32,7 +32,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $layout_defs['Accounts'] = array(
 	// list of what Subpanels to show in the DetailView
 	'subpanel_setup' => array(
-
+/*
 		'activities' => array(
 			'order' => 10,
 			'sort_order' => 'desc',
@@ -135,6 +135,7 @@ $layout_defs['Accounts'] = array(
                     ),
                 ),
         ),
+		*/
 		'contacts' => array(
 			'order' => 30,
 			'module' => 'Contacts',
@@ -150,6 +151,7 @@ $layout_defs['Accounts'] = array(
 			),
 
 		),
+		/*
 		'opportunities' => array(
 			'order' => 40,
 			'module' => 'Opportunities',
@@ -287,7 +289,7 @@ $layout_defs['Accounts'] = array(
 				array('widget_class' => 'SubPanelTopButtonQuickCreate'),
 			),
 		),
-
+		*/
 	),
 );
 ?>
