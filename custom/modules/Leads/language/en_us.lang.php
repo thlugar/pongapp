@@ -1,9 +1,9 @@
 <?php
-// created: 2012-07-16 21:26:55
+// created: 2012-07-16 22:40:53
 $mod_strings = array (
   'LBL_REPORTS_TO' => 'Reports To:',
-  'LBL_CONTACT_ID' => 'Party Animal ID',
-  'LBL_CONVERTED_CONTACT' => 'Converted Party Animal:',
+  'LBL_CONTACT_ID' => 'Party Goer ID',
+  'LBL_CONVERTED_CONTACT' => 'Converted Party Goer:',
   'LBL_ACCOUNT_DESCRIPTION' => 'Party Team Description',
   'LBL_ACCOUNT_ID' => 'Party Team ID',
   'LBL_ACCOUNT_NAME' => 'Party Team Name:',

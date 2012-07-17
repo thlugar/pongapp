@@ -1,5 +1,5 @@
 <?php
-// created: 2012-07-16 21:26:55
+// created: 2012-07-16 22:40:53
 $mod_strings = array (
   'LNK_NEW_ACCOUNT' => 'Create Party Team',
   'LNK_ACCOUNT_LIST' => 'View Party Teams',
@@ -10,7 +10,7 @@ $mod_strings = array (
   'LBL_LIST_FORM_TITLE' => 'Party Team List',
   'LBL_SEARCH_FORM_TITLE' => 'Party Team Search',
   'LBL_MEMBER_OF' => 'Member of:',
-  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Party Animals',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Party Goers',
   'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Member Organizations',
   'LBL_HOMEPAGE_TITLE' => 'My Party Teams',
   'LBL_PARENT_ACCOUNT_ID' => 'Parent Party Team ID',

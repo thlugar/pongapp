@@ -1,4 +1,7 @@
 .idea
+custom/modulebuilder
+custom/history
+application
 .svn
 cache
 custom/modules/*/Ext
