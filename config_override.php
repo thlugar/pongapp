@@ -18,4 +18,5 @@ $sugar_config['default_module_favicon'] = false;
 $sugar_config['dashlet_auto_refresh_min'] = '30';
 $sugar_config['show_download_tab'] = false;
 $sugar_config['stack_trace_errors'] = false;
+$sugar_config['disabled_languages'] = 'bg_BG,cs_CZ,en_UK,sr_RS,tr_TR,pt_br,ca_ES,sv_SE,zh_CN,ru_RU,ro_RO,pt_PT,pl_PL,nb_NO,nl_NL,ja_JP,lt_LT,fr_FR,it_it,hu_HU,he_IL,de_DE,et_EE,es_ES,da_DK';
 /***CONFIGURATOR***/
