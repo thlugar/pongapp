@@ -1,5 +1,5 @@
 <?php
-// created: 2012-07-16 11:57:45
+// created: 2012-07-16 21:26:54
 $sugar_config = array (
   'admin_access_control' => false,
   'admin_export_only' => false,
@@ -54,7 +54,7 @@ $sugar_config = array (
     'db_host_name' => '127.0.0.1',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'root',
-    'db_password' => 'rootroot',
+    'db_password' => 'thlugar3',
     'db_name' => 'pongapp',
     'db_type' => 'mysql',
     'db_port' => '',
@@ -181,7 +181,7 @@ $sugar_config = array (
   'default_password' => '',
   'default_permissions' => 
   array (
-    'dir_mode' => 1528,
+    'dir_mode' => 511,
     'file_mode' => 432,
     'user' => '',
     'group' => '',
@@ -218,8 +218,8 @@ $sugar_config = array (
     'max_retries' => 5,
     'timeout' => 86400,
   ),
-  'js_custom_version' => '',
-  'js_lang_version' => 1,
+  'js_custom_version' => 1,
+  'js_lang_version' => 2,
   'languages' => 
   array (
     'en_us' => 'English (US)',
