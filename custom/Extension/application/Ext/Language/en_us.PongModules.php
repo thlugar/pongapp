@@ -26,38 +26,13 @@
  * by SugarCRM are Copyright (C) 2004-2012 SugarCRM, Inc.; All Rights Reserved.
  ********************************************************************************/
 
-$mod_strings = array(
-	'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-	'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-	'LBL_ID' => 'ID',
-	'LBL_DATE_ENTERED' => 'Date Created',
-	'LBL_DATE_MODIFIED' => 'Date Modified',
-	'LBL_MODIFIED' => 'Modified By',
-	'LBL_MODIFIED_ID' => 'Modified By Id',
-	'LBL_MODIFIED_NAME' => 'Modified By Name',
-	'LBL_CREATED' => 'Created By',
-	'LBL_CREATED_ID' => 'Created By Id',
-	'LBL_DESCRIPTION' => 'Description',
-	'LBL_DELETED' => 'Deleted',
-	'LBL_NAME' => 'Name',
-	'LBL_CREATED_USER' => 'Created by User',
-	'LBL_MODIFIED_USER' => 'Modified by User',
-	'LBL_LIST_NAME' => 'Name',
-	'LBL_TEAM' => 'Teams',
-	'LBL_TEAMS' => 'Teams',
-	'LBL_TEAM_ID' => 'Team Id',
-	'LBL_LIST_FORM_TITLE' => 'Party Games List',
-	'LBL_MODULE_NAME' => 'Party Games',
-	'LBL_MODULE_TITLE' => 'Party Games',
-	'LBL_HOMEPAGE_TITLE' => 'My Party Games',
-	'LNK_NEW_RECORD' => 'Create Party Games',
-	'LNK_LIST' => 'View Party Games',
-	'LNK_IMPORT_THHL_GAMES' => 'Import Party Games',
-	'LBL_SEARCH_FORM_TITLE' => 'Search Party Games',
-	'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-	'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-	'LBL_THHL_GAMES_SUBPANEL_TITLE' => 'Party Games',
-	'LBL_NEW_FORM_TITLE' => 'New Party Games',
-	'LBL_GAME_TYPE' => 'Game Type',
-	'LBL_INDOOR' => 'Is Indoors?',
-);
+$app_list_strings['moduleList']['THHL_Matches'] = 'Matches';
+$app_list_strings['moduleList']['THHL_Parties'] = 'Parties';
+$app_list_strings['moduleList']['THHL_Games'] = 'Party Games';
+$app_list_strings['moduleList']['THHL_PartyAnimals'] = 'Party Animals';
+$app_list_strings['moduleList']['THHL_PartyTeams'] = 'Party Teams';
+$app_list_strings['game_type_list']['beer_pong'] = 'Beer Pong';
+$app_list_strings['game_type_list']['cornhole'] = 'Cornhole';
+$app_list_strings['game_type_list']['other'] = 'Other';
+
+?>

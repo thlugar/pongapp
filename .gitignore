@@ -1,8 +1,9 @@
 .idea
+./sugarcrm.log
 custom/working
 custom/modulebuilder
 custom/history
-application
+custom/application
 .svn
 cache
 custom/modules/*/Ext

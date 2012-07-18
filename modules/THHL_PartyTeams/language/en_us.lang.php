@@ -60,4 +60,6 @@ $mod_strings = array (
   'LBL_NEW_FORM_TITLE' => 'New Party Teams',
   'LBL_SLOGAN' => 'Slogan',
   'LBL_TEAM_LOGO' => 'Team Logo',
+  'LBL_PARTY_ID' => 'Party ID',
+  'LBL_PARTY_NAME' => 'Party',
 );

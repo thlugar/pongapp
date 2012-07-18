@@ -27,41 +27,60 @@
  ********************************************************************************/
 
 $dictionary['THHL_Games'] = array(
-	'table'=>'thhl_games',
-	'audited'=>true,
-		'duplicate_merge'=>true,
-		'fields'=>array (
-  'game_type' => 
-  array (
-    'required' => false,
-    'name' => 'game_type',
-    'vname' => 'LBL_GAME_TYPE',
-    'type' => 'enum',
-    'massupdate' => 0,
-    'default' => 'beer_pong',
-    'comments' => '',
-    'help' => '',
-    'importable' => 'true',
-    'duplicate_merge' => 'disabled',
-    'duplicate_merge_dom_value' => '0',
-    'audited' => true,
-    'reportable' => true,
-    'unified_search' => false,
-    'merge_filter' => 'disabled',
-    'calculated' => false,
-    'len' => 100,
-    'size' => '20',
-    'options' => 'game_type_list',
-    'studio' => 'visible',
-    'dependency' => false,
-  ),
-),
-	'relationships'=>array (
-),
-	'optimistic_locking'=>true,
-		'unified_search'=>true,
-	);
-if (!class_exists('VardefManager')){
-        require_once('include/SugarObjects/VardefManager.php');
+	'table' => 'thhl_games',
+	'audited' => true,
+	'duplicate_merge' => true,
+	'fields' => array(
+		'game_type' =>
+		array(
+			'required' => false,
+			'name' => 'game_type',
+			'vname' => 'LBL_GAME_TYPE',
+			'type' => 'enum',
+			'massupdate' => 0,
+			'default' => 'beer_pong',
+			'comments' => '',
+			'help' => '',
+			'importable' => 'true',
+			'duplicate_merge' => 'disabled',
+			'duplicate_merge_dom_value' => '0',
+			'audited' => true,
+			'reportable' => true,
+			'unified_search' => false,
+			'merge_filter' => 'disabled',
+			'calculated' => false,
+			'len' => 100,
+			'size' => '20',
+			'options' => 'game_type_list',
+			'studio' => 'visible',
+			'dependency' => false,
+		),
+		'indoor' =>
+		array(
+			'required' => false,
+			'name' => 'indoor',
+			'vname' => 'LBL_INDOOR',
+			'type' => 'bool',
+			'massupdate' => 0,
+			'comments' => '',
+			'help' => '',
+			'importable' => 'true',
+			'duplicate_merge' => 'disabled',
+			'duplicate_merge_dom_value' => '0',
+			'audited' => true,
+			'reportable' => true,
+			'unified_search' => false,
+			'merge_filter' => 'disabled',
+			'calculated' => false,
+			'default' => true,
+		),
+	),
+	'relationships' => array(
+	),
+	'optimistic_locking' => true,
+	'unified_search' => true,
+);
+if(!class_exists('VardefManager')){
+	require_once('include/SugarObjects/VardefManager.php');
 }
-VardefManager::createVardef('THHL_Games','THHL_Games', array('basic','assignable'));
+VardefManager::createVardef('THHL_Games', 'THHL_Games', array('basic', 'assignable'));

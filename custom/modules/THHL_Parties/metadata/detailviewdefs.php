@@ -1,5 +1,5 @@
 <?php
-$module_name = 'THHL_PartyTeams';
+$module_name = 'THHL_Parties';
 $viewdefs [$module_name] = 
 array (
   'DetailView' => 
@@ -42,34 +42,60 @@ array (
           0 => 'name',
           1 => 
           array (
-            'name' => 'slogan',
-            'label' => 'LBL_SLOGAN',
+            'name' => 'party_id_number',
+            'label' => 'LBL_PARTY_ID_NUMBER',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'party_name',
-            'label' => 'LBL_PARTY_NAME',
+            'name' => 'party_host',
+            'studio' => 'visible',
+            'label' => 'LBL_PARTY_HOST',
           ),
           1 => 
           array (
-            'name' => 'game_name',
-            'label' => 'LBL_THHL_GAMES_THHL_PARTYTEAMS_1_FROM_THHL_GAMES_TITLE',
+            'name' => 'fb_link',
+            'label' => 'LBL_FB_LINK',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'team_logo',
-            'studio' => 'visible',
-            'label' => 'LBL_TEAM_LOGO',
+            'name' => 'party_type',
+            'label' => 'LBL_PARTY_TYPE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'party_password',
+            'label' => 'LBL_PARTY_PASSWORD',
+          ),
         ),
         3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'start_time',
+            'label' => 'LBL_START_TIME',
+          ),
+          1 => 
+          array (
+            'name' => 'end_time',
+            'label' => 'LBL_END_TIME',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'party_address',
+            'label' => 'LBL_PARTY_ADDRESS',
+          ),
+          1 => 'description',
+        ),
+        5 => 
         array (
           0 => 
           array (
